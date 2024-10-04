@@ -1,0 +1,112 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 2;
+  color: #333;
+}
+
+/* Header Section */
+header {
+  display: inline block;
+  list-style: none;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px; /* Add some padding for clickable area */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+  color: #fc4326; /* Change text color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+  border-radius: 5px; /* Optional: rounded corners */
+
+}
+
+
+
+.intro h1 {
+  font-size: 2.5rem;
+
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+/* Section Styling */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  text-align:center;
+}
+
+/* Projects Styling */
+#projects .project {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+/* Footer Styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
